@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("D:/Data Science/Data Science projects/Data analysis/Users Profile and segmentation/user_profiles_for_ads.csv")
+data = pd.read_csv("user_profiles_for_ads.csv")
 pd.set_option('display.max_columns', None)
 print(data.head())
 print(data.isnull().sum())
